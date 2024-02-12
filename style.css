@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x:hidden;
+}
+.container{
+    position: relative;
+    width: 100vw;
+    height: 200rem;
+    background-color: bisque;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+._top_section{
+    position: relative;
+    background-color: hsl(39, 100%, 50%);
+    width: 100vw;
+    height: 50%;
+}
+._bottom_section{
+    position: absolute;
+    background-color: rgb(191, 173, 224);
+    width: 100vw;
+    height: 50%;
+}
+._section1{
+    background-color: brown;
+    width: 80vw;
+    height: 8rem;
+    margin-left: 10vw;
+}
+.changeBGsection1{
+    background-color: yellow;
+}
